@@ -1,5 +1,6 @@
 :root{
     --light-blue:#4B6F9F;
+	--transition:all .3s ease-in-out;
 }
 html, body{
 	
@@ -48,13 +49,28 @@ body{
 }
 #header.header{
 	z-index:12;
+	width: 100%;
+}
+header header{
+width:100%;
+}
+header #getInTouchBtn{
+	background-color:var(--light-blue);
+	transition:var(--transition);
+	border-radius: 2rem;
+	padding: 0.5rem 1rem;
+	font-size: .9rem;
+}
+#header.header > div{
+	width:100%;
 }
 #header.header .fusion-column-wrapper{
 	display:flex;
 	align-items:center;
 	flex-direction:row;
-	justify-content:space-between;
+	justify-content: space-between!important;
 	margin:0;
+	width: 100vw;
 }
 #header.header .fusion-column-wrapper nav{
 	width:fit-content!important;
