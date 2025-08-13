@@ -31,6 +31,9 @@ header nav.awb-menu{
 	width:8rem!important;
 	height:auto!important;
 }
+.providersContainer .providersImages .fusion-column-wrapper{
+	padding: .5rem 0;
+}
 @media(min-width:992px){
 	.hero-section-container .fusion-layout-column:first-child {
     padding: 0 8rem;
