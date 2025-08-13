@@ -1,5 +1,6 @@
 :root{
     --light-blue:#4B6F9F;
+	--dark-blue:#121e38;
 	--transition:all .3s ease-in-out;
 }
 html, body{
@@ -20,11 +21,6 @@ header > div {
 header nav.awb-menu{
 	padding:0 !important;
 }
-.hero-section-container a{
-	background-color:var(--light-blue);
-	border-radius:2rem;
-	padding:.5rem 1rem;
-}
 @media(min-width:992px){
 	.hero-section-container .fusion-layout-column:first-child {
     padding: 0 8rem;
@@ -36,12 +32,39 @@ header nav.awb-menu{
 .hero-section-container .fusion-image-element  .fusion-imageframe{
     height:100%;
     width:100%;
+	position:relative;
 }
 .hero-section-container .fusion-image-element  .fusion-imageframe img{
     height:100%;
     width:100%;
     object-fit:cover;
     object-position:center;
+    position: relative;
+}
+.providersIntro .fusion-title-heading{
+	font-size:2rem!important;
+	text-transform:uppercase;
+	white-space:nowrap;
+	margin:0!important;
+	color:var(--dark-blue)!important;
+}
+.providersIntro .fusion-title.title{
+	margin:0!important;
+}
+.providersIntro  .fusion-text{
+	font-size:1rem;
+	color:var(--light-blue);
+	white-space:nowrap;
+}
+.hero-section-container .fusion-image-element .fusion-imageframe::after{
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:rgb(0 0 0 / 60%);
+	z-index:0;
+	height:100%;
+	width:100%;
 }
 body{
 	    font-size: 16px;
