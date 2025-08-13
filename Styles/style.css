@@ -20,6 +20,11 @@ header > div {
 header nav.awb-menu{
 	padding:0 !important;
 }
+.hero-section-container a{
+	background-color:var(--light-blue);
+	border-radius:2rem;
+	padding:.5rem 1rem;
+}
 @media(min-width:992px){
 	.hero-section-container .fusion-layout-column:first-child {
     padding: 0 8rem;
