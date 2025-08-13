@@ -21,6 +21,16 @@ header > div {
 header nav.awb-menu{
 	padding:0 !important;
 }
+/* providers */
+.providersContainer .fusion-column-wrapper{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.providersContainer .fusion-image-carousel-fixed .awb-swiper .fusion-image-wrapper img{
+	width:8rem!important;
+	height:auto!important;
+}
 @media(min-width:992px){
 	.hero-section-container .fusion-layout-column:first-child {
     padding: 0 8rem;
