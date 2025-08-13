@@ -69,7 +69,7 @@ header nav.awb-menu{
     object-position:center;
     position: relative;
 }
-.providersIntro .fusion-title-heading{
+.appTitle{
 	font-size:2rem!important;
 	text-transform:uppercase;
 	white-space:nowrap;
