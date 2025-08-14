@@ -398,18 +398,32 @@ button.header-search-wrapper span{
 }
 .ourServicesContainer .awb-swiper-button-prev, 
 .ourServicesContainer .awb-swiper-button-next{
-	/* height:100%; */
-	/* background-color: var(--dark-blue); */
-	/* border-radius:0!important; */
+	height:100%;
+	background-color: var(--dark-blue);
+	border-radius:0!important;
 	opacity:1!important;
+	top: 0;
 }
-.awb-swiper-button{
+.ourServicesContainer .awb-swiper-button-prev{
+	left:0;
+}
+.ourServicesContainer .awb-swiper-button-next{
+	right:0;
+}
+.ourServicesContainer .awb-swiper-button i{
 	background-color:var(--light-blue)!important;
-	height:2rem!important;
-	width:2rem!important;
+	height: 3rem!important;
+	width: 3rem!important;
 	border-radius:100%!important;
-	top:50%;
 	opacity: 1!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: .8rem;
+}
+.ourServicesContainer  .awb-swiper-button i::before{
+	font-size:1.1rem;
+	font-weight: 400;
 }
 .ourServicesContainer .swiper-wrapper .swiper-slide .fusion-imageframe img,
 .ourServicesContainer .swiper-wrapper .swiper-slide .fusion-imageframe,
