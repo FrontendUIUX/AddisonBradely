@@ -110,6 +110,7 @@ html body .fusion-title-heading.appTitle{
 html body .appTitle h1.fusion-title-heading.title-heading-left.fusion-responsive-typography-calculated{
 	text-align:left!important;
 	font-size:2rem!important;
+	text-transform: uppercase;
 }
 .providersIntro .fusion-title.title{
 	margin:0!important;
