@@ -46,8 +46,7 @@ header nav.awb-menu{
 }
 .providersContainer .awb-swiper{
     margin-left:3rem!important;
-    border-top:1px solid rgb(0 0 0 /20%);
-    border-bottom:1px solid rgb(0 0 0 /20%)
+    border-left: 1px solid rgb(0 0 0 /52%);
 }
 @media(min-width:992px){
 	.hero-section-container .fusion-layout-column:first-child {
