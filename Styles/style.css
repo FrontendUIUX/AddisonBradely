@@ -74,7 +74,13 @@ header nav.awb-menu{
 .servicesContainer .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
     margin: 0;
 }
+.servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
+    padding: 0 1rem;
+}
 @media(min-width:992px){
+    .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
+    padding: 0 6rem;
+}
 	.hero-section-container .fusion-layout-column:first-child {
     padding: 0 8rem;
 }
