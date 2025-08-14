@@ -71,6 +71,9 @@ header nav.awb-menu{
 .servicesContainer .awb-imageframe-caption{
 	border:3px solid white;
 }
+.servicesContainer .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
+    margin: 0;
+}
 @media(min-width:992px){
 	.hero-section-container .fusion-layout-column:first-child {
     padding: 0 8rem;
