@@ -52,6 +52,22 @@ header nav.awb-menu{
 	font-size:.85rem!important;
 	text-align:inherit;
 }
+/* Our Services Section */
+.servicesContainer{
+	background-color:var(--dark-blue);
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+.servicesContainer .fusion-title-heading{
+	color:white!important;
+	width:100%!important;
+	font-size:2rem!important;
+}
+.servicesContainer .fusion-text{
+	color:white;
+	font-size:1rem;
+	width:100%;
+}
 @media(min-width:992px){
 	.hero-section-container .fusion-layout-column:first-child {
     padding: 0 8rem;
