@@ -23,6 +23,9 @@ header{
 	padding-bottom: 0!important;
 	width: 100%!important;
 }
+.awb-menu__main-li:last-child span{
+	border-right:none!important;
+}
 header > div {
     width: fit-content;
     justify-content: center !important;
