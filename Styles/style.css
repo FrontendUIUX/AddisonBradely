@@ -89,6 +89,9 @@ header nav.awb-menu{
 .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
     padding: 0 1rem;
 }
+.providersContainer{
+	padding-left:1rem;
+}
 @media(min-width:992px){
     .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
     padding: 0 6rem;
@@ -459,6 +462,9 @@ button.header-search-wrapper span{
     font-size:1.3rem;
 }
 @media(min-width:1200px){
+	.providersContainer{
+		padding-left:6rem;
+	}
 	.container{
 	max-width:100%!important;
 	margin:0;
