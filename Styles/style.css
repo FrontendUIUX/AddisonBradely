@@ -1,5 +1,6 @@
 :root{
     --light-blue:#4B6F9F;
+	--medium-blue:#2e4b78;
 	--dark-blue:#121e38;
 	--transition:all .3s ease-in-out;
 }
@@ -122,10 +123,15 @@ html body .fusion-title-heading.appTitle{
 	margin:0!important;
 	color:var(--dark-blue)!important;
 }
+html body .subTitle , html body .subTitle .fusion-title-heading{
+	font-size:1.5rem!important;
+	color:var(--medium-blue)!important;
+}
 html body .appTitle h1.fusion-title-heading.title-heading-left.fusion-responsive-typography-calculated{
 	text-align:left!important;
 	font-size:2rem!important;
 	text-transform: uppercase;
+	color:var(--dark-blue)!important;
 }
 .providersIntro .fusion-title.title{
 	margin:0!important;
