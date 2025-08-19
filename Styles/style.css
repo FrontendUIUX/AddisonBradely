@@ -106,6 +106,12 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
     font-size:.9rem!important;
     margin-top:1.5rem;
 }
+.ourValuesContainer .fusion-column-wrapper{
+	display:flex;
+	/* align-items:center; */
+	justify-content:space-between;
+	width: 100%;
+}
 .ourValuesContainer .fusion-text{
     color:#2D4B79!important;
 }
@@ -127,6 +133,11 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
     position:relative;
     overflow: visible;
 }
+.ourValuesContainer .fusion-post-cards-6 .fusion-grid .fusion-layout-column:first-child .fusion-imageframe{
+	border: 0.8px solid #1a253e;
+	border-radius:100%;
+	padding:1rem;
+}
 .ourValuesContainer .fusion-post-cards-6 .fusion-grid .fusion-layout-column:not(:last-child) .fusion-imageframe::after{
     content:"";
     position:absolute;
@@ -138,12 +149,11 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
     height: 6px;
     width: 100%;
     background-repeat:no-repeat;
-    overflow: visible;
 }
 .ourValuesContainer .fusion-post-cards-6 .fusion-grid .fusion-imageframe img{
     height:100%;
     width:100%;
-    object-fit:cover;
+    object-fit: contain;
 }
 /* OUR VALUES END */
 @media(min-width:992px){
