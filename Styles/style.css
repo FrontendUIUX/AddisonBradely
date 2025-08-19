@@ -182,6 +182,36 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
     object-fit: contain;
 }
 /* OUR VALUES END */
+.aboutUsContainer{
+	padding:0!important;
+}
+.aboutUsContainer .fusion-column-wrapper {
+	display:flex;
+	align-items:center;
+}
+.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
+	width: 50%!important;
+}
+.aboutUsContainer > .fusion-column-wrapper{
+	display:flex;
+	flex-direction: row!important;
+	flex-wrap: nowrap!important;
+	gap: 4rem;
+}
+.aboutUsContainer .fusion-column-wrapper .fusion-image-element  {
+	width:50%!important;
+	height: auto;
+}
+.fusion-imageframe {
+	max-width: 100%;
+	height:100%;
+	width: 100%;
+}
+.aboutUsContainer .fusion-column-wrapper .fusion-image-element img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+}
 @media(min-width:992px){
     .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
     padding: 0 6rem;
@@ -500,20 +530,46 @@ button.header-search-wrapper span{
      transform:rotate(0deg);
 }
 .cvTitle h1{
-	color: #121E38;
-    font-family: "Helvetica", Sans-serif;
-    font-size: 35px!important;
-    font-weight: 400!important;
-    line-height: 47.25px!important;
+	color: #2D4B78!important;
+	font-family: "Helvetica", Sans-serif;
+	font-size: 1.7rem!important;
+	font-weight: 400!important;
+	line-height: 47.25px!important;
+	text-align: left!important;
+}
+.aboutUsContainer .fusion-text.fusion-text-4.subtitle p{
+	font-size:2.3rem;
+	margin:0!important;
+	text-transform:uppercase;
+	color: #121E38!important;
+	font-weight: 600;
+}
+.aboutUsContainer .aboutus .fusion-column-wrapper{
+	flex-direction:column;
+	align-items:flex-start;
+}
+html[dir="ltr"] .aboutUsContainer .fusion-text,
+html[lang*="en-US"] .aboutUsContainer .fusion-text {
+	text-align:left!important;
+	--awb-content-alignment: left!important;
+}
+html[dir="rtl"] .aboutUsContainer .fusion-text{
+	text-align:right!important;
+}
+html[dir="ltr"] .cvTitle h1{
+	text-align: left!important;
+}
+html[dir="rtl"] .cvTitle h1{
+	text-align: right!important;
 }
 .cvDescription{
-	font-size: 16px; 
+	font-size: 16px;
 	white-space-collapse: preserve;
-	color:#797979;
+	color: #2D4B79;
 	text-align: left;
-    font-family: "Poppins", Sans-serif;
-    font-weight: 400;
-    line-height: 1.5em;
+	font-family: "Poppins", Sans-serif;
+	font-weight: 400;
+	line-height: 1.5em;
 }
 .ourServicesContainer .awb-swiper-button-prev, 
 .ourServicesContainer .awb-swiper-button-next{
