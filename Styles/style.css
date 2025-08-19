@@ -93,6 +93,59 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 .providersContainer{
 	padding-left:1rem;
 }
+/* OUR VALUES START */
+.valueContainer .fusion-column-wrapper{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.valueContainer .fusion-text{
+    color:#111D38!important;
+    text-transform:uppercase;
+    font-size:.9rem!important;
+    margin-top:1.5rem;
+}
+.ourValuesContainer .fusion-text{
+    color:#2D4B79!important;
+}
+.ourValuesContainer .fusion-post-cards-5{
+    width: 30%;
+}
+.ourValuesContainer .fusion-post-cards-6{
+    width:70%;
+}
+.ourValuesContainer .fusion-post-cards-6 .fusion-grid{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    width: 100%;
+}
+.ourValuesContainer .fusion-post-cards-6 .fusion-grid .fusion-imageframe{
+    height: 6rem;
+    width: 6rem;
+    position:relative;
+    overflow: visible;
+}
+.ourValuesContainer .fusion-post-cards-6 .fusion-grid .fusion-layout-column:not(:last-child) .fusion-imageframe::after{
+    content:"";
+    position:absolute;
+    top:50%;
+    transform: translate(100% , -50%);
+    left: 10%;
+    background-image:url("https://frontenduiux.github.io/AddisonBradely/Images/Line%209.svg");
+    background-size:contain;
+    height: 6px;
+    width: 100%;
+    background-repeat:no-repeat;
+    overflow: visible;
+}
+.ourValuesContainer .fusion-post-cards-6 .fusion-grid .fusion-imageframe img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+/* OUR VALUES END */
 @media(min-width:992px){
     .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
     padding: 0 6rem;
