@@ -197,10 +197,11 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	flex-direction: row!important;
 	flex-wrap: nowrap!important;
 	gap: 4rem;
+	align-items: flex-start;
 }
 .aboutUsContainer .fusion-column-wrapper .fusion-image-element  {
-	width:50%!important;
-	height: auto;
+	width: 100%!important;
+	height: 20rem;
 }
 .fusion-imageframe {
 	max-width: 100%;
