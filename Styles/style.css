@@ -15,6 +15,32 @@ html, body{
 	padding-left: 1rem!important;
 	padding-right: 1rem!important;
 }
+.hero-section-container .fusion-button{
+	border-radius:2rem;
+	background-color:var(--light-blue);
+	text-transform:uppercase;
+	transition:var(--transition);
+}
+.hero-section-container .fusion-button .awb-button__icon{
+	background-color:white;
+	border-radius:100%;
+	height:1.5rem;
+	width:1.5rem;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.hero-section-container .fusion-button .awb-button__icon::before{
+	color:var(--light-blue);
+	transition:var(--transition);
+}
+.hero-section-container .fusion-button:hover{
+	background-color:var(--dark-blue);
+}
+.hero-section-container .fusion-button:hover .awb-button__icon::before{
+	transform:translateX(.1rem);
+	color:var(--dark-blue);
+}
 .fusion-post-cards.fusion-post-cards-8.awb-carousel.awb-swiper.awb-swiper-carousel.awb-swiper-dots-position-bottom.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-autoheight.swiper-backface-hidden {
     padding: 0 6rem;
 }
