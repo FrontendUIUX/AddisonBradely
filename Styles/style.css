@@ -629,7 +629,7 @@ html[dir="rtl"] .cvTitle h1{
 	width: 100%!important;
 	object-fit: contain!important;
 }
-.contactTitle, .contactSubTitle, .contactDescription{
+.contactTitle .fusion-title-heading, .contactSubTitle .fusion-title-heading, .contactDescription p{
 	color: #ffffff;
 }
 .contactTitle .fusion-title-heading{
