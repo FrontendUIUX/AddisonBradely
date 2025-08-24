@@ -632,10 +632,10 @@ html[dir="rtl"] .cvTitle h1{
 .contactTitle, .contactSubTitle, .contactDescription{
 	color: #ffffff;
 }
-.contactTitle h1{
+.contactTitle .fusion-title-heading{
 	font-size: 2rem!important;
 }
-.contactSubTitle h1{
+.contactSubTitle .fusion-title-heading{
 	font-size: 1.3rem!important;
 }
 .contactDescription p{
