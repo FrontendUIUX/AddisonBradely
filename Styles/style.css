@@ -629,6 +629,18 @@ html[dir="rtl"] .cvTitle h1{
 	width: 100%!important;
 	object-fit: contain!important;
 }
+.contactTitle, .contactSubTitle, .contactDescription{
+	color: #ffffff;
+}
+.contactTitle h1{
+	font-size: 2rem!important;
+}
+.contactSubTitle h1{
+	font-size: 1.3rem!important;
+}
+.contactDescription p{
+	font-size: 1rem!important;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
