@@ -724,15 +724,17 @@ html[dir="rtl"] .cvTitle h1{
     font-size: 1.4rem;
 }
 /* TESTIMONIALS */
-.testimonials{
-	margin:4rem 0;
+.testimonials .swiper-wrapper{
+	padding:6rem 0!important;
 }
 .testimonialCard{
     background-color:#FAF8F8;
-    padding:5rem 2rem 2rem;
+    padding:5rem 3rem 2rem;
     border-radius:2rem!important;
     overflow:hidden;
     height:20rem;
+	position:relative;
+	overflow:visible;
 }
 html[lang="en-US"] .testimonials .testimonialCard .fusion-text{
 	text-align:left;
@@ -740,6 +742,17 @@ html[lang="en-US"] .testimonials .testimonialCard .fusion-text{
 .testimonials .testimonialCard .fusion-text{
 	color:#111D38;
 	font-size:1rem;
+}
+.testimonials .testimonialCard::before{
+	content:"";
+	background-image:url("http://3.29.18.204/wp-content/uploads/2025/08/❝.svg");
+	background-repeat:no-repeat;
+	background-size:contain;
+	height:8rem;
+	width:8rem;
+	position:absolute;
+	top:-2rem;
+	left:3rem;
 }
 @media(min-width:1200px){
 	.providersContainer{
