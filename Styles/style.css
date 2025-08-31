@@ -723,6 +723,15 @@ html[dir="rtl"] .cvTitle h1{
     color:var(--light-blue);
     font-size: 1.4rem;
 }
+/* TESTIMONIALS */
+.testimonialCard{
+    background-color:#FAF8F8;
+    padding:2rem;
+    border-radius:2rem!important;
+    overflow:hidden;
+    height:20rem;
+}
+
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
