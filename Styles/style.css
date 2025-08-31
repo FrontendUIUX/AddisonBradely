@@ -724,14 +724,23 @@ html[dir="rtl"] .cvTitle h1{
     font-size: 1.4rem;
 }
 /* TESTIMONIALS */
+.testimonials{
+	margin:4rem 0;
+}
 .testimonialCard{
     background-color:#FAF8F8;
-    padding:2rem;
+    padding:5rem 2rem 2rem;
     border-radius:2rem!important;
     overflow:hidden;
     height:20rem;
 }
-
+html[lang="en-US"] .testimonials .testimonialCard .fusion-text{
+	text-align:left;
+}
+.testimonials .testimonialCard .fusion-text{
+	color:#111D38;
+	font-size:1rem;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
