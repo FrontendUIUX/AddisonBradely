@@ -655,7 +655,7 @@ html[dir="rtl"] .cvTitle h1{
 	object-fit: contain!important;
 }
 .contactTitle .fusion-title-heading, .contactSubTitle .fusion-title-heading, .contactDescription p{
-	color: #ffffff;
+	color: #ffffff!important;
 }
 .contactTitle .fusion-title-heading{
 	font-size: 2rem!important;
