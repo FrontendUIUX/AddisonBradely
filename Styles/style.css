@@ -775,6 +775,22 @@ html[dir="rtl"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 .contactTile {
     width:100%!important;
 }
+.contactTile .tileDescription{
+	color:white;
+	width:100%!important;
+}
+.contactTile ul li.fusion-layout-column{
+	width:100%!important;
+	height: 14rem!important;
+
+}
+.contactTile ul li .fusion-builder-row.fusion-builder-row-inner.fusion-row.fusion-flex-align-items-flex-start.fusion-flex-content-wrap{display:flex;flex-direction: row;}
+.contactTile .fusion-layout-column.fusion_builder_column_inner.fusion-builder-nested-column-19.fusion_builder_column_inner_1_2.\31 _2.fusion-flex-column,
+.fusion-layout-column.fusion_builder_column_inner.fusion-builder-nested-column-21.fusion_builder_column_inner_1_2.\31 _2.fusion-flex-column{
+	width: 80%!important;
+	display:flex;
+	flex-direction:column!important;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
