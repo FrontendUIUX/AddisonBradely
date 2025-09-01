@@ -754,6 +754,27 @@ html[lang="en-US"] .testimonials .testimonialCard .fusion-text{
 	top:-2rem;
 	left:3rem;
 }
+.contactTile .fusion-layout-column {
+    width: 3rem!important;
+    height: 3rem!important;
+}
+.contactTile .fusion-image-element  .tileIcon{
+    height:100%;
+    width:100%;
+    object-fit:contain;
+}
+html[lang="en-US"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
+    margin-right:1rem!important;
+}
+html[dir="rtl"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
+    margin-left:1rem!important;
+}
+.contactTile .fusion-text{
+    color:white;
+}
+.contactTile {
+    width:100%!important;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
