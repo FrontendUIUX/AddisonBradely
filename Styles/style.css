@@ -791,6 +791,13 @@ html[dir="rtl"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 	display:flex;
 	flex-direction:column!important;
 }
+button.fusion-button.button-flat.fusion-button-default-size.button-default.fusion-button-default.button-6.fusion-button-default-span.form-form-submit.button-default {
+    background-color: var(--light-blue);
+    border-radius: 2rem;
+    padding: 0.8rem 3rem;
+    margin: auto;
+    display: flex;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
