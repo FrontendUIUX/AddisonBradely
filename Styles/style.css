@@ -810,6 +810,9 @@ footer {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
+.copyrightSection p{
+    margin-bottom:0.3rem;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
