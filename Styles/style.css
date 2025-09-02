@@ -431,12 +431,18 @@ button.header-search-wrapper span{
     object-fit:cover;
 }
 .awb-icon-linkedin{
-	background-color: #FFF;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #0072B1;
-    border-radius: 100px 100px 100px 100px;
-    padding: 10px 14px 10px 10px;
+	height: 2.3rem;
+	width: 2.3rem;
+}
+.awb-icon-linkedin:before {
+    content: "";
+    background-image: url(http://3.29.18.204/wp-content/uploads/2025/09/Fill-1.svg);
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .elementor-widget-container{
 	font-size:12px;
