@@ -208,7 +208,9 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 }
 /* OUR VALUES END */
 .aboutUsContainer{
-	padding:0!important;
+	padding-top: 4rem!important;
+	padding-bottom: 4rem!important;
+	background-color: #FAF8F8;
 }
 .aboutUsContainer .fusion-column-wrapper {
 	display:flex;
