@@ -808,7 +808,7 @@ button.fusion-button.button-flat.fusion-button-default-size.button-default.fusio
 }
 footer {
     padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
 }
 .copyrightSection p{
     margin-bottom:0.3rem;
