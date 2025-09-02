@@ -557,7 +557,7 @@ button.header-search-wrapper span{
 .contactUsButton:hover i.fa-long-arrow-right::before{
      transform:rotate(0deg);
 }
-.cvTitle h1{
+.cvTitle  p{
 	color: #2D4B78!important;
 	font-family: "Helvetica", Sans-serif;
 	font-size: 1.7rem!important;
@@ -565,7 +565,7 @@ button.header-search-wrapper span{
 	line-height: 47.25px!important;
 	text-align: left!important;
 }
-.aboutUsContainer .fusion-text.fusion-text-4.subtitle p{
+.aboutUsContainer .subtitle p{
 	font-size:2.3rem;
 	margin:0!important;
 	text-transform:uppercase;
@@ -590,7 +590,7 @@ html[dir="ltr"] .cvTitle h1{
 html[dir="rtl"] .cvTitle h1{
 	text-align: right!important;
 }
-.cvDescription{
+.cv_description p{
 	font-size: 16px;
 	white-space-collapse: preserve;
 	color: #2D4B79;
