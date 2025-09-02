@@ -806,6 +806,10 @@ button.fusion-button.button-flat.fusion-button-default-size.button-default.fusio
     margin: auto;
     display: flex;
 }
+footer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
