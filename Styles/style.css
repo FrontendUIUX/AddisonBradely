@@ -688,6 +688,9 @@ html[dir="rtl"] .cvTitle h1{
 .contactTitle .fusion-title-heading, .contactSubTitle .fusion-title-heading, .contactDescription p{
 	color: #ffffff!important;
 }
+.contactSection .subTitle .fusion-title-heading{
+	color:white!important;
+}
 .contactTitle .fusion-title-heading{
 	font-size: 2rem!important;
 }
