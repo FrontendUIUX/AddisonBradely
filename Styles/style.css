@@ -660,6 +660,7 @@ html[dir="rtl"] .cvTitle h1{
 .ourServicesContainer .swiper-wrapper .swiper-slide {
 	border:3px solid #fff;
 	overflow:hidden;
+	height: 28rem;
 }
 .ourServicesContainer .swiper-wrapper .swiper-slide .fusion-imageframe img,
 .ourServicesContainer .swiper-wrapper .swiper-slide .fusion-imageframe,
