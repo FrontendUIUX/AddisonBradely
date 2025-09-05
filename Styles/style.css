@@ -35,6 +35,11 @@ html[dir="rtl"] .trp-language-switcher-container:first-child{
 .current-language-menu-item a span{
 	color:var(--light-blue);
 }
+.hero-section-container .swiper-slide{
+	clip-path: ellipse(100% 54% at 47% 47%);
+	overflow:hidden!important;
+	height: 100%!important;
+}
 .hero-section-container .fusion-button{
 	border-radius:2rem;
 	background-color:var(--light-blue);
@@ -254,7 +259,8 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 .hero-section-container .fusion-image-element  .fusion-imageframe{
     height:100%;
     width:100%;
-	position:relative;
+    position:relative;
+    clip-path: ellipse(100% 54% at 47% 46%);
 }
 .hero-section-container .fusion-image-element  .fusion-imageframe img{
     height:100%;
@@ -297,6 +303,7 @@ html body .appTitle h1.fusion-title-heading.title-heading-left.fusion-responsive
 	z-index:0;
 	height:100%;
 	width:100%;
+	/* clip-path: ellipse(100% 56% at 47% 44%); */
 }
 body{
 	    font-size: 16px;
