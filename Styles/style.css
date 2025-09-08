@@ -842,6 +842,17 @@ footer {
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
+.contactSection p{
+	color: white;
+}
+.contactSection .fusion-button {
+	background-color: var(--light-blue)!important;
+	margin: auto;
+	width: fit-content;
+	display: flex;
+	border-radius: 2rem;
+	transition: var(--transition);
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
