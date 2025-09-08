@@ -862,8 +862,8 @@ footer {
 	padding: 0.6rem 2.2rem;
 }
 .contactSection [for="contact_us_consent_field"]{
-	position:relative;
-	color: white;
+	position:relative!important;
+	color: white!important;;
 }
 .contactSection [for="contact_us_consent_field"]::after{
 	content:"*";
