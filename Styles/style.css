@@ -690,6 +690,9 @@ html[dir="rtl"] .cvTitle h1{
 	width: 100%!important;
 	object-fit: contain!important;
 }
+html body .contactSection .fusion-title.appTitle h1.fusion-title-heading{
+	color:white!important;
+}
 .contactTitle .fusion-title-heading, .contactSubTitle .fusion-title-heading, .contactDescription p{
 	color: #ffffff!important;
 }
