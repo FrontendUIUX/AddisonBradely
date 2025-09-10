@@ -391,7 +391,7 @@ a.getInTouchButton span{
 	font-family:helvetica;
 }
 .heroImage img{
-	width:1200px!important;
+	/* width:1200px!important; */
 }
 button.header-search-wrapper {
     background-color: transparent;
@@ -894,6 +894,7 @@ footer {
     position: relative;
     padding: 0!important;
     margin: 0!important;
+	clip-path:ellipse(100% 54% at 47% 46%);
 }
 .heroImage img,
 .heroImage .fusion-image-element,
@@ -911,7 +912,23 @@ footer {
     padding:0!important;
     margin:0!important;
 }
+.fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
+    margin: unset;
+}
+.fusion-flex-container .fusion-row .fusion-flex-column{width: 100%!important;margin:0;}
 
+li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-column.heroImage.post-card.fusion-grid-column.fusion-post-cards-grid-column {
+    width:100%!important;
+    margin:0!important;
+}
+.heroImage .awb-imageframe-caption{
+    display:flex!important;
+    align-items:center;
+    justify-content:center;
+}
+.heroImage .awb-imageframe-caption .awb-imageframe-caption-title{
+    color:white!important;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
