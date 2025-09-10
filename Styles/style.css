@@ -894,7 +894,8 @@ footer {
     position: relative;
     padding: 0!important;
     margin: 0!important;
-	clip-path:ellipse(100% 54% at 47% 46%);
+	clip-path:ellipse(100% 54% at 47% 46%)!important;
+	overflow: hidden!important;
 }
 .heroImage img,
 .heroImage .fusion-image-element,
