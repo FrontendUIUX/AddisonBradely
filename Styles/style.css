@@ -888,6 +888,30 @@ footer {
     color:var(--light-blue)!important;
     text-decoration:none;
 }
+.heroImage {
+    width: 100vw!important;
+    height: 78vh;
+    position: relative;
+    padding: 0!important;
+    margin: 0!important;
+}
+.heroImage img,
+.heroImage .fusion-image-element,
+.heroImage .fusion-imageframe{
+    height:100%!important;
+    width:100%!important;
+    object-fit:cover;
+}
+#wrapper #main .fullwidth-box .fusion-row{
+    margin:0!important;
+    max-width: unset!important;
+}
+.width-100 .fusion-fullwidth, .width-100 .nonhundred-percent-fullwidth{
+    width:100%!important;
+    padding:0!important;
+    margin:0!important;
+}
+
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
