@@ -9,6 +9,9 @@ html, body{
     font-weight:500;
 	font-family:Roboto, helvetica, arial, sans-serif!important;
 }
+.fusion-grid-posts-cards{
+	margin: 0!important;
+}
 .clearfix {
     width: 100%!important;
     padding: 0!important;
