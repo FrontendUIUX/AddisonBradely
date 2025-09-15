@@ -847,10 +847,11 @@ footer {
 .copyrightSection p{
     margin-bottom:0.3rem;
 }
-.contactSection {
+.contactSection.container.fusion-flex-container {
     clip-path: ellipse(120% 100%  at 50% 100%);
-    padding-top: 13rem;
-    padding-bottom: 8rem;
+    padding-top: 13rem!important;
+    padding-bottom: 8rem!important;
+    background-color: var(--dark-blue);
 }
 .contactSection p{
 	color: white;
