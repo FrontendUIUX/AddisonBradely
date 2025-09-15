@@ -932,6 +932,14 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
     color:white!important;
 	text-transform: uppercase;
 }
+.kpisContainer .fusion-title-heading {
+    color: #255cb1!important;
+}
+.kpisContainer .fusion-text{
+    width: 45%;
+    color:var(--medium-blue)!important;
+    margin:0 2.5rem;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
