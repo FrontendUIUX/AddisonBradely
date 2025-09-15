@@ -917,6 +917,9 @@ footer {
     /* padding:0!important; */
     margin:0!important;
 }
+.width-100 .fusion-fullwidth:not(.container), .width-100 .nonhundred-percent-fullwidth:not(.container){
+	padding: 0!important;
+}
 .width-100 .nonhundred-percent-fullwidth.kpisSection{
 	padding:3rem 8rem!important;
 	background-color:#faf8f8;
