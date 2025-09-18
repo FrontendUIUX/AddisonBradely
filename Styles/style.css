@@ -349,7 +349,7 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 			padding-left:4rem!important;
 		}
     .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
-    padding: 0 6rem;
+    /* padding: 0 6rem; */
 }
 	.hero-section-container .fusion-layout-column:first-child {
     padding: 0 8rem;
