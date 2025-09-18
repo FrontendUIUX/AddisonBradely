@@ -9,6 +9,27 @@ html, body{
     font-weight:500;
 	font-family:Roboto, helvetica, arial, sans-serif!important;
 }
+/* SEARCH ICON ADJUSTMENTS START */
+.actionMenu .fusion-column-wrapper{
+    display: flex;
+    align-items: center;
+    gap:.5rem;
+}
+.actionMenu .searchIcon{
+    height:1.5rem;
+    width:1.5rem;
+    max-width: 1.5rem;
+}
+.actionMenu .searchIcon img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.actionMenu .fusion-image-element {
+    height:1.5rem!important;
+    width:1.5rem!important;
+}
+/* SEARCH ICON ADJUSTMENTS END */
 /* SEARCH BOX CONTAINER START */
 div#searchBoxContainer {
     position: fixed;
