@@ -882,12 +882,13 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading{
 .testimonialsContainer .awb-swiper-button-prev, 
 .testimonialsContainer .awb-swiper-button-next {
     height: 100%;
-    background-color: var(--dark-blue);
+    background-color: white;
     border-radius: 0 !important;
     opacity: 1 !important;
-    top: 0;
+    top: 50%;
+    width: 4rem;
 }
-.testimonialsContainer .awb-swiper-button.awb-swiper-button-prev{
+.testimonialsContainer .awb-swiper-button.awb-swiper-button-prev i{
     background-color: var(--light-blue) !important;
     height: 2.5rem;
     width: 2.5rem;
@@ -897,8 +898,9 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading{
     align-items: center;
     justify-content: center;
     padding: 0.9rem;
+    background-color:white;
 }
-.testimonialsContainer .awb-swiper-button.awb-swiper-button-next{
+.testimonialsContainer .awb-swiper-button.awb-swiper-button-next i{
 	background-color:var(--light-blue)!important;
 	height: 2.5rem;
 	width: 2.5rem;
@@ -908,9 +910,10 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading{
 	align-items: center;
 	justify-content: center;
 	padding: 0.9rem;
+	background-color:white;
 }
-.testimonials .swiper-wrapper{
-	padding: 6rem 5rem!important;
+.testimonialsContainer  .awb-swiper.fusion-post-cards{
+	padding: 3rem 5rem!important;
 	width: 100%!important;
 }
 .testimonialCard{
