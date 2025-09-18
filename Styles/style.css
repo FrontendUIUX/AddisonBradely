@@ -121,7 +121,7 @@ html[dir="rtl"] .trp-language-switcher-container:first-child{
 	padding: 0.5rem 1rem;
 }
 .hero-section-container .fusion-button span{
-	font-size:1rem;
+	font-size:.85rem;
 	letter-spacing:.1rem;
 }
 .hero-section-container .fusion-button .awb-button__icon{
@@ -407,7 +407,8 @@ header #getInTouchBtn{
 	transition:var(--transition);
 	border-radius: 2rem;
 	padding: 0.5rem 1rem;
-	font-size: .9rem;
+	font-size: .85rem;
+	letter-spacing: .04rem;
 }
 #header.header > div{
 	width:100%;
@@ -429,8 +430,9 @@ footer .fusion-column-wrapper nav .menu-text{
 	text-transform: uppercase;
 	font-size: 0.8rem;
 }
-.awb-menu_icons-left .awb-menu__main-a{
+.navbar .awb-menu__main-a{
 	text-decoration:none;
+	padding: 0 1rem!important;
 }
 .header-phone-wrapper {
     width: fit-content;
@@ -608,9 +610,10 @@ button.header-search-wrapper span{
 .heroTitle h1{
 	color: #121e38 !important;
 	font-family: "Helvetica", Sans-serif;
-	font-size: 2rem!important;
+	font-size: 2.2rem!important;
 	font-weight: 600;
 	text-transform: uppercase;
+	letter-spacing: .05rem;
 }
 .heroDescription p{
 	font-family: "Poppins", Sans-serif;
@@ -1036,7 +1039,6 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 }
 .kpisContainer .fusion-text{
     color:var(--medium-blue)!important;
-    /* margin:0 2.5rem; */
 }
 .kpisContainer .fusion-text p{
 	margin:0!important;
