@@ -131,7 +131,8 @@ html[dir="rtl"] .trp-language-switcher-container:first-child{
 	transition:var(--transition);
 	padding: 0.5rem 1rem;
 }
-.hero-section-container .fusion-button span{
+.hero-section-container .fusion-button span,
+html .aboutUsContainer .fusion-button span{
 	font-size:.85rem;
 	letter-spacing:.1rem;
 }
@@ -713,6 +714,9 @@ button.header-search-wrapper span{
 html .aboutUsContainer .fusion-button{
 	border-radius:2rem;
 	background-color:var(--dark-blue);
+	text-transform:uppercase;
+	transition:var(--transition);
+	padding: 0.5rem 1rem;
 }
 
 html[dir="ltr"] .aboutUsContainer .fusion-text,
