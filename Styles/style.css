@@ -2,12 +2,17 @@
     --light-blue:#4B6F9F;
 	--medium-blue:#2e4b78;
 	--dark-blue:#121e38;
+	--helvetica:"Helvetica", Sans-serif;
 	--transition:all .3s ease-in-out;
 }
 html, body{
-	
     font-weight:500;
 	font-family:Roboto, helvetica, arial, sans-serif!important;
+}
+@font-face {
+	font-family: "Helvetica", sans-serif;
+	src: url(../Fonts/Helvetica.ttf) format("truetype");
+	font-display: swap;
 }
 /* SEARCH ICON ADJUSTMENTS START */
 .actionMenu .fusion-column-wrapper{
