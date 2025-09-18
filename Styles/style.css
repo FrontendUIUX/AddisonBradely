@@ -289,9 +289,12 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	padding-bottom: 4rem!important;
 	background-color: #FAF8F8;
 }
+.aboutUsContainer .fusion-layout-column{
+	padding:0!important;
+}
 .aboutUsContainer .fusion-column-wrapper {
-	display:flex;
-	/* align-items:center; */
+	padding: 0;
+	margin: 0;
 }
 .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
 	width: 100%!important;
