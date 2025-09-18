@@ -135,7 +135,8 @@ html[dir="rtl"] .trp-language-switcher-container:first-child{
 	font-size:.85rem;
 	letter-spacing:.1rem;
 }
-.hero-section-container .fusion-button .awb-button__icon{
+.hero-section-container .fusion-button .awb-button__icon,
+html .aboutUsContainer .fusion-button i{
 	background-color:white;
 	border-radius:100%;
 	height:1.5rem;
@@ -144,14 +145,16 @@ html[dir="rtl"] .trp-language-switcher-container:first-child{
 	align-items:center;
 	justify-content:center;
 }
-.hero-section-container .fusion-button .awb-button__icon::before{
+.hero-section-container .fusion-button .awb-button__icon::before,
+html .aboutUsContainer .fusion-button i::before{
 	color:var(--light-blue);
 	transition:var(--transition);
 }
 .hero-section-container .fusion-button:hover{
 	background-color:var(--dark-blue);
 }
-.hero-section-container .fusion-button:hover .awb-button__icon::before{
+.hero-section-container .fusion-button:hover .awb-button__icon::before,
+html .aboutUsContainer .fusion-button:hover i::before{
 	transform:translateX(.1rem);
 	color:var(--dark-blue);
 }
@@ -707,6 +710,11 @@ button.header-search-wrapper span{
 	flex-direction:column;
 	align-items:flex-start;
 }
+html .aboutUsContainer .fusion-button{
+	border-radius:2rem;
+	background-color:var(--dark-blue);
+}
+
 html[dir="ltr"] .aboutUsContainer .fusion-text,
 html[lang*="en-US"] .aboutUsContainer .fusion-text {
 	text-align:left!important;
