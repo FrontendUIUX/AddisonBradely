@@ -1,8 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     const searchIcon = document.getElementById('searchIcon');
+    const searchBoxContainer = this.documentElement('searchBoxContainer');
     if (searchIcon) {
         searchIcon.addEventListener('click', function() {
-            console.log('Search icon clicked');
+            if(searchBoxContainer){
+                searchBoxContainer.classList.add('visible');
+            }
         });
     }
 });
