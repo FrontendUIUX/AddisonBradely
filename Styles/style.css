@@ -181,17 +181,16 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 .ourValuesContainer .fusion-text{
     color:#2D4B79!important;
 }
-.ourValuesContainer .fusion-column-wrapper > .fusion-post-cards:first-child{
-    width: 30%;
-}
-.ourValuesContainer .fusion-column-wrapper > .fusion-post-cards:nth-child(2){
-    width:70%!important;
-}
+
 .ourValuesContainer  .fusion-grid{
     display:flex;
     align-items:flex-start;
     justify-content:space-between;
     width: 100%;
+}
+.ourValuesContainer .fusion-grid .fusion-column-wrapper{
+	width:100%!important;
+	display:block;
 }
 .ourValuesContainer  .fusion-grid .fusion-imageframe{
     height: 6rem;
@@ -229,10 +228,10 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 }
 .aboutUsContainer .fusion-column-wrapper {
 	display:flex;
-	align-items:center;
+	/* align-items:center; */
 }
 .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
-	width: 50%!important;
+	width: 100%!important;
 }
 .aboutUsContainer > .fusion-column-wrapper{
 	display:flex;
@@ -246,9 +245,9 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	height: 20rem;
 }
 .fusion-imageframe {
-	/* max-width: 100%; */
-	/* height:100%; */
-	/* width: 100%; */
+	max-width: 100%;
+	height:100%;
+	width: 100%;
 }
 .aboutUsContainer .fusion-column-wrapper .fusion-image-element img{
 	height:100%;
@@ -256,6 +255,15 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	object-fit:cover;
 }
 @media(min-width:992px){
+	.ourValuesContainer .fusion-column-wrapper > .fusion-post-cards:first-child{
+    width: 30%;
+}
+.ourValuesContainer .fusion-column-wrapper > .fusion-post-cards:nth-child(2){
+    width:70%!important;
+}
+	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
+	width: 50%!important;
+}
     .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
     padding: 0 6rem;
 }
@@ -610,6 +618,7 @@ button.header-search-wrapper span{
 	text-transform:uppercase;
 	color: #121E38!important;
 	font-weight: 600;
+	text-align: left!important;
 }
 .aboutUsContainer .aboutus .fusion-column-wrapper{
 	flex-direction:column;
@@ -848,8 +857,8 @@ footer {
     margin-bottom:0.3rem;
 }
 .contactSection.container.fusion-flex-container {
-    clip-path: ellipse(120% 100%  at 50% 100%);
-    padding-top: 13rem!important;
+    clip-path: ellipse(158% 100%  at 50% 100%);
+    padding-top: 8rem!important;
     padding-bottom: 8rem!important;
     background-color: var(--dark-blue);
 }
