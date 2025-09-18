@@ -879,8 +879,31 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading{
     font-size: 1.4rem;
 }
 /* TESTIMONIALS */
+.testimonialsContainer .awb-swiper-button.awb-swiper-button-prev{
+    background-color: var(--light-blue) !important;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100% !important;
+    opacity: 1 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem;
+}
+.testimonialsContainer .awb-swiper-button.awb-swiper-button-next{
+	background-color:var(--light-blue)!important;
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius:100%!important;
+	opacity: 1!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.9rem;
+}
 .testimonials .swiper-wrapper{
-	padding:6rem 0!important;
+	padding: 6rem 5rem!important;
+	width: 100%!important;
 }
 .testimonialCard{
     background-color:#FAF8F8;
