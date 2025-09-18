@@ -319,7 +319,7 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 }
 .aboutUsContainer .fusion-column-wrapper .fusion-image-element  {
 	width: 100%!important;
-	height: 20rem;
+	height: 25rem;
 }
 .fusion-imageframe {
 	max-width: 100%;
@@ -341,6 +341,9 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
 	width: 50%!important;
 }
+		.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
+			padding-left:4rem!important;
+		}
     .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
     padding: 0 6rem;
 }
