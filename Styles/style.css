@@ -879,6 +879,14 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading{
     font-size: 1.4rem;
 }
 /* TESTIMONIALS */
+.testimonialsContainer .awb-swiper-button-prev, 
+.testimonialsContainer .awb-swiper-button-next {
+    height: 100%;
+    background-color: var(--dark-blue);
+    border-radius: 0 !important;
+    opacity: 1 !important;
+    top: 0;
+}
 .testimonialsContainer .awb-swiper-button.awb-swiper-button-prev{
     background-color: var(--light-blue) !important;
     height: 2.5rem;
