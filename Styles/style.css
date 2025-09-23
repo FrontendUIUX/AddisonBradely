@@ -698,13 +698,13 @@ button.header-search-wrapper span{
 .cvTitle  p{
 	color: #2D4B78!important;
 	font-family: "Helvetica", Sans-serif;
-	font-size: 1.7rem!important;
+	font-size: 1.4rem!important;
 	font-weight: 400!important;
-	line-height: 47.25px!important;
+	line-height: 2rem!important;
 	text-align: left!important;
 }
 .aboutUsContainer .subtitle p{
-	font-size:2.3rem;
+	font-size: 1.3rem;
 	margin:0!important;
 	text-transform:uppercase;
 	color: #121E38!important;
