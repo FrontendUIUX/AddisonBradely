@@ -20,6 +20,10 @@ html, body{
 	src: url("../Fonts/Helvetica-Bold.ttf") format("truetype");
 	font-display: swap;
 }
+.topBar .awb-menu__main-a{
+	text-decoration: none;
+	margin: 0 .5rem;
+}
 /* SEARCH ICON ADJUSTMENTS START */
 .actionMenu .fusion-column-wrapper{
     display: flex;
