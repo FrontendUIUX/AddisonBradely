@@ -1191,6 +1191,16 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
     padding-left:.6rem;
     border-left:1px solid rgb(255 255 255 / 40%);
 }
+.team_member.post-card{
+    padding:0!important;
+}
+.team_member:nth-child(even).post-card > .fusion-column-wrapper{
+    background-color: white;
+}
+.team_member:nth-child(odd).post-card > .fusion-column-wrapper{
+    background-color: #e5e3e3;
+}
+
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
