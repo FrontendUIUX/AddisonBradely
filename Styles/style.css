@@ -1133,7 +1133,13 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
     width:100%;
     object-fit:cover;
 }
-
+.team_member_name .fusion-title-heading {
+    text-transform: uppercase;
+    font-size: 1.5rem!important;
+    text-align: center!important;
+    color:var(--dark-blue);
+    margin-top: 1.6rem!important;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
