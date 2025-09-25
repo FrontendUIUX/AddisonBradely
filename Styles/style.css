@@ -1125,8 +1125,8 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
     border-radius:100%;
     overflow:hidden;
     border:1.5px solid var(--dark-blue);
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
 }
 .team_member_photo img{
     height:100%;
