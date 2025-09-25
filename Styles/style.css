@@ -1180,6 +1180,17 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 	flex-direction:column;
 	align-items:center;
 }
+.member_email span{
+    color:var(--light-blue)!important;
+}
+.member_email{
+    padding:0!important;
+    margin-bottom:1rem!important;
+}
+.member_linkedin_profile .fusion-button-text{
+    padding-left:.6rem;
+    border-left:1px solid rgb(255 255 255 / 40%);
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
