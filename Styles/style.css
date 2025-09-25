@@ -1125,8 +1125,8 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
     border-radius:100%;
     overflow:hidden;
     border:1.5px solid var(--dark-blue);
-    height: 15rem;
-    width: 15rem;
+    height: 13rem;
+    width: 13rem;
 }
 .team_member_photo img{
     height:100%;
@@ -1195,6 +1195,10 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 .member_linkedin_profile .fusion-button-text{
     padding-left:.6rem;
     border-left:1px solid rgb(255 255 255 / 40%);
+}
+.team_member{
+	padding-top:2rem!important;
+	padding-bottom:2rem!important;
 }
 .team_member:nth-child(even).post-card{
     background-color: white;
