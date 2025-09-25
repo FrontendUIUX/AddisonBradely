@@ -1140,6 +1140,18 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
     color:var(--dark-blue);
     margin-top: 1.6rem!important;
 }
+.member_position p{
+    font-size:1.25rem;
+    color:var(--light-blue);
+    font-family:var(--helvetica-bold);
+    text-align:center;
+}
+.member_description p{
+    color:var(--light-blue);
+    font-size:1.1rem;
+    line-height:1.8;
+    width:90%;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
