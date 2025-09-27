@@ -10,6 +10,9 @@ html, body{
     font-weight:500;
 	font-family:var(--helvetica)!important;
 }
+html[dir="rtl"],html[dir="rtl"] body{
+	text-align:right!important;
+}
 @font-face {
 	font-family: "Helvetica";
 	src: url("../Fonts/Helvetica.ttf") format("truetype");
@@ -150,6 +153,12 @@ html .aboutUsContainer .fusion-button i{
 	align-items:center;
 	justify-content:center;
 }
+html[dir="rtl"] .hero-section-container .fusion-button .awb-button__icon,
+html[dir="rtl"] .aboutUsContainer .fusion-button i{
+	margin-right:.7em;
+	margin-left:0;
+	scale:-1;;
+}
 .hero-section-container .fusion-button .awb-button__icon::before,
 html .aboutUsContainer .fusion-button i::before{
 	color:var(--light-blue);
@@ -160,6 +169,11 @@ html .aboutUsContainer .fusion-button i::before{
 }
 .hero-section-container .fusion-button:hover .awb-button__icon::before,
 html .aboutUsContainer .fusion-button:hover i::before{
+	transform:translateX(.1rem);
+	color:var(--dark-blue);
+}
+html[dir="rtl"] .hero-section-container .fusion-button:hover .awb-button__icon::before,
+html[dir="rtl"] .aboutUsContainer .fusion-button:hover i::before{
 	transform:translateX(.1rem);
 	color:var(--dark-blue);
 }
@@ -349,8 +363,11 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
 	width: 50%!important;
 }
-		.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
+		html[dir="ltr"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
 			padding-left:4rem!important;
+		}
+	html[dir="rtl"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
+			padding-right:4rem!important;
 		}
     .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
     /* padding: 0 6rem; */
@@ -392,6 +409,12 @@ html body .appTitle h1.fusion-title-heading{
 	text-transform: uppercase;
 	color:var(--dark-blue)!important;
 }
+html[dir="rtl"] body .appTitle h1.fusion-title-heading,
+html[dir="rtl"] body .subTitle , 
+html[dir="rtl"] body .subTitle .fusion-title-heading{
+	text-align:right!important;
+}
+
 .providersIntro .fusion-title.title{
 	margin:0!important;
 }
@@ -701,7 +724,7 @@ button.header-search-wrapper span{
 	font-size: 1.4rem!important;
 	font-weight: 400!important;
 	line-height: 2rem!important;
-	text-align: left!important;
+	/* text-align: left!important; */
 }
 .aboutUsContainer .subtitle p{
 	font-size: 1.3rem;
@@ -709,7 +732,12 @@ button.header-search-wrapper span{
 	text-transform:uppercase;
 	color: #121E38!important;
 	font-weight: 600;
-	text-align: left!important;
+}
+html[dir="ltr"] .aboutUsContainer .subtitle p{
+	text-align:left!important;
+}
+html[dir="rtl"] .aboutUsContainer .subtitle p{
+	text-align:right!important;
 }
 .aboutUsContainer .aboutus .fusion-column-wrapper{
 	flex-direction:column;
@@ -742,9 +770,12 @@ html[dir="rtl"] .cvTitle h1{
 	white-space-collapse: preserve;
 	color: #2D4B79;
 	text-align: left;
-	font-family: "Poppins", Sans-serif;
+	font-family: var(--helvetica);
 	font-weight: 400;
 	line-height: 1.5em;
+}
+html[dir="rtl"] .cv_description p{
+	text-align:right;
 }
 .ourServicesContainer .awb-swiper-button-prev, 
 .ourServicesContainer .awb-swiper-button-next{
